@@ -1,5 +1,3 @@
 def square_array(array)
-  array.each do |expon|
-    expon ** 2
-  end
+  array.each { |expon| puts expon ** 2}
 end
